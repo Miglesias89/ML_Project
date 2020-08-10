@@ -1,0 +1,176 @@
+/* STYLES */
+
+body {
+    background: #f1f1f1;
+    font-family: "Century Gothic";
+  }
+
+h1 {
+    font-family: "Century Gothic"; 
+    color: #0033a0;
+    font-size: 36px;
+  }
+
+h2 {
+    font-family: "Century Gothic"; 
+    color: #0033a0;
+    font-size: 30px;
+  }
+
+h3 {
+    font-family: "Century Gothic"; 
+    color: #0033a0;
+    font-size: 24px;
+  }
+
+h4 {
+    font-family: "Arial"; 
+    color: #0033a0;
+    font-size: 18px;
+    padding: 10px 40px 8px 15px;
+  }
+
+p {
+    font-family: "Arial"; 
+    color: black;
+    font-size: 14px;
+  }
+
+.ol {
+  font-family: "Arial"; 
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+  /* NAVIGATIOBN BAR */
+/* Giving our navbar some padding and a background color */
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none !important;
+  background-color: Transparent !important;
+  outline: #333333 dotted 0px;
+}
+
+.navbar-grey {
+  color: #333333 !important;
+  font-weight: bold !important;
+}
+
+
+/* navbar  background - white*/
+.navbar { 
+  min-height: 100px; 
+  background-color: #FFF !important; 
+  border-bottom: #DDD 1px solid !important;
+}
+
+/* navbar brand responsive */
+.navbar-brand {
+  padding: 10px 40px 8px 15px !important; 
+  height:100px;
+}
+
+.navbar-header {
+  margin: 20px 0px !important;
+  width: 150px !important;
+  /*height: auto;*/
+}
+
+.navbar-brand-image {width: 175px; height:77px;}
+.navbar-toggle { margin-top: 22px; }
+.toggbutton {font-size: .7em; line-height:1em; display:block; font-weight:bold;}
+ 
+.btn-primary {
+    color: #fff !important;
+    background-color: #333333 !important;
+    border-color: #333333 !important;
+    padding: 10px !important;
+  }
+
+.whitebox  {
+     background-color: #FFF !important;
+     margin-top: 20px !important;
+     padding: 20px !important;
+  }
+
+/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+  .navbar li {
+    display: inline-block !important;
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer !important;
+    background: whitesmoke !important;
+    border-radius: 3px;
+  }
+  
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+.nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+/*
+.table {
+  margin: auto;
+  width: 50% !important; 
+}
+*/
+
+.table-data {
+  font-size: 16px;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.info {
+  background-color: rgba(231, 230, 228, 0.753);
+  padding: 5px;
+  border-width: 2px;
+  border-color: black;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer > .bottom {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  background: #1b3146;
+}
+
+
+.icon-photo{
+
+  width: 5%;
+  height: 8%;
+
+}
+
+#selDataset{
+
+  position: center;
+  /* margin-left: 15px; */
+
+
+}
